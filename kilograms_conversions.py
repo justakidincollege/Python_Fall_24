@@ -1,39 +1,22 @@
 # Kilograms to Pounds Conversion
 
-# Variables
-kilograms=10 
+# Variables 
+kilograms_1=10
+kilograms_2=15
+kilograms_3=20
+kilograms_4=25
+
+# Establishing conversion factor
 conversion_factor=2.20462
 
-# Converion
-pounds_1=kilograms*conversion_factor
+# Calculations
+pounds_1=kilograms_1*conversion_factor
+pounds_2=kilograms_2*conversion_factor
+pounds_3=kilograms_3*conversion_factor
+pounds_4=kilograms_4*conversion_factor
 
-# Change value of kilograms
-kilograms=15
-
-# Conversion
-pounds_2=kilograms*conversion_factor
-
-# Change value of kilograms 
-kilograms=20
-
-# Conversion
-pounds_3=kilograms*conversion_factor
-
-# Change value of kilograms
-kilograms=25
-
-# Conversion
-pounds_4=kilograms*conversion_factor
-
-# Change value of kilograms
-kilograms=30
-
-# Conversion
-pounds_5=kilograms*conversion_factor
-
-# Display Convsersions
-print("Conversion 1:",pounds_1,"pounds")
-print("Conversion 2:",pounds_2,"pounds")
-print("Conversion 3:",pounds_3,"pounds")
-print("Conversion 4:",pounds_4,"pounds")
-print("Conversion 5:",pounds_5,"pounds")
+# Displaying data
+print(f"{kilograms_1} kilograms is equal to {pounds_1:.2f} pounds.")
+print(f"{kilograms_2} kilograms is eqaul to {pounds_2:.2f} pounds.")
+print(f"{kilograms_3} kilograms is eqaul to {pounds_3:.2f} pounds.")
+print(f"{kilograms_4} kilograms is equal to {pounds_4:.2f} pounds.")
