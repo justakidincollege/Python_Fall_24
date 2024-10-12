@@ -1,7 +1,4 @@
 # BMI_calculator assignment
-# Inform user on what the program does
-print("Hello user I am a BMI caluclator.")
-
 # Start functions to convert variables
 def calculate_kilograms(WEIGHT):
     global KILOGRAMS
@@ -18,9 +15,8 @@ def calculate_BMI():
     BMI=KILOGRAMS/(METERS*METERS)
 # Start the main part of the program
 def main():
-    global HEIGHT
+    print("Hello user I am a BMI caluclator.")
     HEIGHT=float(input("Please enter your height in inches: "))
-    global WEIGHT
     WEIGHT=float(input("Please enter your weight in pounds: "))
     calculate_kilograms(WEIGHT)
     calculate_meters(HEIGHT)
