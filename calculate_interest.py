@@ -9,4 +9,4 @@ def calculate_interest(principal, rate, time):
     interest=(principal*rate*time)/100
     return interest
 interest=calculate_interest(principal, rate, time)
-print(f"The simple interest for a principal amount of ${principal:,.2f} at a interest rate of {rate}% over a period of {time} years would be ${interest}. ")
+print(f"The simple interest for a principal amount of ${principal:,.2f} at a interest rate of {rate}% over a period of {time} years would be ${interest:,.2f}. ")
